@@ -1,0 +1,38 @@
+/*!
+ * Start Bootstrap - Blog Home HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body {
+    padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+th,td{
+	text-align: center;
+}
+#data-table td{
+	text-align: center;
+	font-size: 12px;
+	vertical-align: middle;
+}
+footer {
+    margin: 50px 0;
+}
+
+.navbar-inverse{
+	background-color: #E74430;
+	border-bottom: 1px solid #FA523D;
+}
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form{
+	border-color: #E74430;
+}
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus{
+	background-color: #FA523D;
+}
+.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus{
+	background-color: #E74430;
+}
+.navbar-inverse .navbar-toggle{
+	border-color: #E74430;
+}
